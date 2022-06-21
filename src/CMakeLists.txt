@@ -5,13 +5,13 @@ set(MAIN_SOURCES
 )
 
 set(HEADERS
-    welcome_window.cpp
-    settings_widget.cpp
+    welcome_window.h
+    settings_widget.h
 )
 
 set(SOURCES
-    welcome_window.h
-    settings_widget.h
+    welcome_window.cpp
+    settings_widget.cpp
 )
 
 set(Qt5_DIR "D:/Soft/Programming/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5")
